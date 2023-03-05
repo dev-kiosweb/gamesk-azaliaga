@@ -32,14 +32,14 @@
             @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap');
             
             :root {
-                --warna: #edf2f7;
-                --warna_2: #ffff;
-                --warna_3: #16c92a;
+                --warna: #1E3163;
+                --warna_2: #2D46B9;
+                --warna_3: #F037A5;
                 --warna_4: rgba(22, 201, 42, 0.29);
             }
             body {
                 background: var(--warna);
-                color : #000;
+                color : #fff;
             }
             
             .bg-hijau{
@@ -66,12 +66,12 @@
             }
 
             .navbar-light .navbar-nav .nav-link {
-                color: #000;
+                color: #fff;
             }
 
             .h1, .h2, .h3, .h4, .h5, .h6, .a, .p .span, .label, h1, h2, h3, h4, h5, h6, a, p, span, label {
                 font-weight: 500;
-                color: #000;
+                color: #fff;
             }
 
             .login {
@@ -108,14 +108,14 @@
                 min-height: 446px;
             }
             .table-white tr th, .table-white tr td {
-                color: #000;
+                color: #fff;
                 border-color: #242f3a;
             }
 
             label {
                 font-weight: 500;
                 text-transform: none;
-                color: #000;
+                color: #fff;
             }
 
             .fw-bold {
@@ -192,7 +192,7 @@
             .intruction {
                 font-family: 'Poppons', sans-serif;
                 font-weight: 700;
-                color: #000;
+                color: #fff;
             }
             .bg-footer {
                 background-color: var(--warna);
@@ -210,16 +210,15 @@
             /* nominal layanan */
             .radio-nominal + label, .radio-nominale + label {
                 background: var(--warna);
-                color: #000;
+                color: #fff;
                 font-weight: 600px;
                 border: 1px solid var(--warna_3);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
             
             .radio-nominale:checked + label, .radio-nominal:checked + label {
-                
                 background: var(--warna_4);
-                color: #000;
+                color: #fff;
                 border: 1px solid var(--warna_3);
             }
             /* end nominal */
@@ -227,7 +226,7 @@
             .num-produk {
                 font-size: 13px;
                 font-weight: 600;
-                color: #000;
+                color: #fff;
             }
             .rounded-top {
                 border-top-left-radius: var(--bs-border-radius)!important;
@@ -417,7 +416,8 @@
             }
             .card-product {
                 transition: .3s;
-                background: rgba(22, 201, 42, 0.80);
+                /* background: rgba(22, 201, 42, 0.80); */
+                background-color : var(--warna_2);
                 backdrop-filter: blur(1.5px);
                 border-radius: 10px;
                 overflow: hidden;
@@ -426,6 +426,7 @@
             }
             .card-product .product-dsc {
                 padding: 6px;
+                background-color : var(--warna_2);
             }
             .card-product p {
                 font-size: 10px;
@@ -461,11 +462,14 @@
                 padding: 5px;
             }
             .judul-web {
-                color: #000;
+                color: #fff;
                 text-shadow: #000;
                 font-family: 'Poppins', sans-serif;
                 font-size: 30px;
                 font-weight: 800;
+            }
+            .nav-pills .nav-link {
+                color: #fff;
             }
         </style>
 
@@ -474,7 +478,7 @@
     <body>
         <div id="wrapper">
             <header>
-                <nav class="navbar custom-toggler navbar-expand-lg fixed-top navbar-light shadow-sm bg-custom">
+                <nav class="navbar custom-toggler navbar-expand-lg fixed-top navbar-dark shadow-sm bg-custom">
                     <div class="container">
                         <a class="navbar-brand" href="<?= base_url(); ?>">
                             <img src="<?= base_url(); ?>/assets/images/<?= $web['logo']; ?>" width="50" alt="logo icon" class="rounded">
@@ -482,7 +486,7 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse menu-utama" id="navbarNavAltMarkup">
+                        <div class="collapse navbar-collapse menu-utama text-white" id="navbarNavAltMarkup">
                             <div class="navbar-nav ml-auto">
                                 <a class="nav-item nav-link <?= $menu_active == 'Home' ? 'active' : ''; ?>" href="<?= base_url(); ?>">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">

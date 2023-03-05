@@ -123,7 +123,7 @@
                     										<div class="cursor-pointer product-list active text-center">
                                                                 <div class="mx-auto">
                                                                     <img src="<?= $loop['logo_url'] ?>" class="mb-2" alt="" width="35">
-                                                                    <b class="d-block text-dark num-produk"><?= $loop['product']; ?></b>
+                                                                    <b class="d-block num-produk"><?= $loop['product']; ?></b>
                         										    <span>Rp <?= $loop['price']; ?>,-</span>
                                                                 </div>
                     										</div>

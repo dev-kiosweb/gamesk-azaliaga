@@ -70,10 +70,9 @@
                                     <div class="col-md-3 col-4 mb-3">
                                         <a href="<?= base_url(); ?>/games/<?= $loop['slug']; ?>">
                                             <div class="card-product shadow">
-                                                    <img src="<?= base_url(); ?>/assets/images/games/<?= $loop['image']; ?>" style="border-radius: 10px" class="img-fluid" alt="" placeholder="blur">
+                                                <img src="<?= base_url(); ?>/assets/images/games/<?= $loop['image']; ?>" style="border-radius: 10px" class="img-fluid" alt="" placeholder="blur">
                                                 <div class="product-dsc">
                                                     <h4 class="product-title"><?= $loop['games']; ?></h4>
-                                                    <!--<a href="<?= base_url(); ?>/games/<?= $loop['slug']; ?>" class="btn mt-1">TOP UP</a>-->
                                                 </div>
                                             </div>
                                         </a>

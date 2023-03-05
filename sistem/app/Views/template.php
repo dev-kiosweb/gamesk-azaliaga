@@ -32,9 +32,9 @@
             @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap');
             
             :root {
-                --warna: #1E3163;
-                --warna_2: #2D46B9;
-                --warna_3: #F037A5;
+                --warna: #fff;
+                --warna_2: #191825;
+                --warna_3: #2C3333;
                 --warna_4: rgba(22, 201, 42, 0.29);
             }
             body {
@@ -209,7 +209,7 @@
 
             /* nominal layanan */
             .radio-nominal + label, .radio-nominale + label {
-                background: var(--warna);
+                background: var(--warna_3);
                 color: #fff;
                 font-weight: 600px;
                 border: 1px solid var(--warna_3);
@@ -469,7 +469,7 @@
                 font-weight: 800;
             }
             .nav-pills .nav-link {
-                color: #fff;
+                color: #000;
             }
         </style>
 

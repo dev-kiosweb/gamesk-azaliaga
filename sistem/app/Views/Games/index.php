@@ -111,7 +111,7 @@
                                             <?php foreach ($product as $loop): ?>
                                             <?php if ($loop['status'] == 'On'): ?>
 
-                                            <div class="col-sm-4 col-6">
+                                            <div class="text-dark col-sm-4 col-6">
 
                                                 <input type="radio" id="product-<?= $loop['id']; ?>" class="radio-nominale" name="product" value="<?= $loop['id']; ?>" onchange="get_price(this.value);">
 

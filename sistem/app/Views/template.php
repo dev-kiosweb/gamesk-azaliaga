@@ -217,7 +217,7 @@
             }
             
             .radio-nominale:checked + label, .radio-nominal:checked + label {
-                background: var(--warna_4);
+                background: var(--warna_2);
                 color: #fff;
                 border: 1px solid var(--warna_3);
             }

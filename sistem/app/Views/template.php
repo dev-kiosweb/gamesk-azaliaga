@@ -32,7 +32,7 @@
             @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap');
             
             :root {
-                --warna: #fff;
+                --warna: #f3f4f7;
                 --warna_2: #191825;
                 --warna_3: #2C3333;
                 --warna_4: rgba(22, 201, 42, 0.29);
@@ -92,8 +92,8 @@
             }
             
             .form-control {
-                background: var(--warna_5);
-                border-color : var(--warna_3);
+                background: var(--warna);
+                border-color : var(--warna);
             }
 
             .form-control:focus{
@@ -209,15 +209,15 @@
 
             /* nominal layanan */
             .radio-nominal + label, .radio-nominale + label {
-                background: var(--warna_3);
-                color: #fff;
+                background: var(--warna);
+                color: var(--warna_3);
                 font-weight: 600px;
                 border: 1px solid var(--warna_3);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
             
             .radio-nominale:checked + label, .radio-nominal:checked + label {
-                background: var(--warna_2);
+                background: var(--warna_3);
                 color: #fff;
                 border: 1px solid var(--warna_3);
             }

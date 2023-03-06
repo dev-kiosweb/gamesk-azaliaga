@@ -208,15 +208,28 @@
             }
 
             /* nominal layanan */
-            .radio-nominal + label, .radio-nominale + label {
+            .radio-nominal + label {
+                color: #000;
+                font-weight: 600px;
+                border: 1px solid var(--warna_3);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+
+            .radio-nominal:checked + label {
+                background: var(--warna_3);
+                color: #fff;
+                border: 1px solid var(--warna_3);
+            }
+
+            .radio-nominale + label {
                 background: var(--warna);
-                color: var(--warna_3);
+                color: #000;
                 font-weight: 600px;
                 border: 1px solid var(--warna_3);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
             
-            .radio-nominale:checked + label, .radio-nominal:checked + label {
+            .radio-nominale:checked + label{
                 background: var(--warna_3);
                 color: #fff;
                 border: 1px solid var(--warna_3);
@@ -226,7 +239,7 @@
             .num-produk {
                 font-size: 13px;
                 font-weight: 600;
-                color: #fff;
+                /* color : #000; */
             }
             .rounded-top {
                 border-top-left-radius: var(--bs-border-radius)!important;

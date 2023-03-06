@@ -124,7 +124,7 @@
                                                                 <div class="mx-auto">
                                                                     <img src="<?= $loop['logo_url'] ?>" class="mb-2" alt="" width="35">
                                                                     <b class="d-block num-produk"><?= $loop['product']; ?></b>
-                        										    <span>Rp <?= $loop['price']; ?>,-</span>
+                        										    Rp <?= $loop['price']; ?>,-
                                                                 </div>
                     										</div>
                     									</div>
@@ -278,7 +278,7 @@
 
                                                                                         <img src="<?= base_url(); ?>/assets/images/method/<?= $loop['image']; ?>" class="rounded img-fluid mb-1" style="height: 40px;">
 
-                                                                                        <p class="m-0" style="font-weight: normal;"><?= $loop['method']; ?></p>
+                                                                                        <p class="m-0"><?= $loop['method']; ?></p>
 
                                                                                     </div>
 

@@ -614,7 +614,7 @@
 
                                         <div class="card-header border-bottom-0">
 
-                                            <h5 class="text-dark">Detail Pembelian</h5>
+                                            <h5 class="" style="color: #fff;">Detail Pembelian</h5>
 
                                         </div>
 

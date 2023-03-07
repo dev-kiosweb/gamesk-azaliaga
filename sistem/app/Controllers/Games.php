@@ -773,7 +773,7 @@ class Games extends BaseController {
                                                     <input type="hidden" name="wa" value="'.$data_post['wa'].'">
                                                     <input type="hidden" name="quantity" value="'.$data_post['quantity'].'">
 
-                                                    <table style="width: 100%;">
+                                                    <table style="width: 100%; color: #fff;">
                                                         <tbody>
                                                             <tr>
                                                                 <td class="text-left pt-2 pb-2">Kategori Layanan:</td>

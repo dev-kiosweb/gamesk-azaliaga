@@ -610,7 +610,7 @@
 
                                 <div class="modal-dialog modal-dialog-centered">
 
-                                    <div class="modal-content text-dark animated bounceIn" style="background: var(--warna_2);">
+                                    <div class="modal-content animated bounceIn" style="background: var(--warna_2);">
 
                                         <div class="card-header border-bottom-0">
 
